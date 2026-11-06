@@ -1,0 +1,24 @@
+# Dependências
+node_modules/
+
+# Build do Next.js
+.next/
+out/
+build/
+*.tsbuildinfo
+next-env.d.ts
+
+# Testes
+coverage/
+
+# Ambiente — nunca versionar segredos
+.env
+.env.*
+!.env.example
+
+# Logs e artefatos locais
+*.log
+.DS_Store
+.idea/
+.vscode/
+.vercel/
